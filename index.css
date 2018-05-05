@@ -89,6 +89,7 @@ nav ul .nav-hover:hover {
 
 .handle-menu {
   position: relative;
+  margin-left: 10px;
   top: 10px;
   font-size: 20px;
   border-bottom: 1px solid white;
@@ -98,11 +99,11 @@ nav ul .nav-hover:hover {
 }
 
 .bars {
-  float:left;
+  float:right;
   color: #f2f2f2;
   font-size: 35px;
   font-weight: bold;
-  margin-left: 10px;
+  margin-right: 10px;
   position: relative;
   bottom: 33px;
 }
@@ -130,6 +131,12 @@ nav ul .nav-hover:hover {
   .handle {
     display:block;
   }
+
+  .nav-hover:hover,
+  .nav-left:hover {
+    background: #dcdcdc;
+  }
+
 
   .nav-left {
     position: static;
@@ -287,7 +294,7 @@ h1 {
 
 .image:nth-of-type(3) {
   background:
-    url('images/food.jpeg') no-repeat center center;
+    url('images/travel.jpeg') no-repeat center center;
   background-size: cover;
 }
 
