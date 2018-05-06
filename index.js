@@ -12,6 +12,7 @@ $("a").on('click', function(event) {
   }
 });
 
+
 $('.nav-logo').click(function(event) {
   event.preventDefault();
     $('body,html').animate({
