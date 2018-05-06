@@ -348,6 +348,7 @@ h2 {
   height: 50px;
   width: 200px;
   background: none;
+  padding-top: 5px;
   border: 2px solid white;
   color: white;
   z-index: 99999999;
@@ -616,4 +617,12 @@ h3 {
     height: 250px;
   }
 
+}
+
+/*Resume styling*/
+
+.resume-title,
+.resume-body {
+  text-align: center;
+  color: black;
 }
