@@ -550,7 +550,6 @@ h3 {
 
   h2 {
       font-size: 16px !important;
-      margin-top: 30px !important;
   }
 
 
@@ -558,6 +557,7 @@ h3 {
     font-size: 35px !important;
     margin-bottom: -20px;
     margin-top: 50px;
+    margin-bottom: 50px !important;
   }
 
   .portrait {
@@ -583,6 +583,12 @@ h3 {
   .about-content,
   .about-content-two {
     font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  h2 {
+    margin-top: -35px !important;
   }
 }
 
@@ -621,7 +627,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1024px) {
   h1 {
     font-size: 70px;
   }
