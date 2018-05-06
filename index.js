@@ -21,7 +21,6 @@ $('.nav-logo').click(function(event) {
     );
 });
 
-
 $(window).scroll(function(){
     let a = 10;
     let pos = $(window).scrollTop();
@@ -41,6 +40,13 @@ $(function () {
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+
+ $('.see-more').click(function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: $("#about").offset().top
+    }, 800);
+  });
 
 
 $('.handle').on('click', function(event) {
@@ -69,7 +75,6 @@ play();
 });
 
 // Overlay on click
-
 
 $(".container").on('click',function(){
     $(this).children(".overlay").toggleClass("show");
