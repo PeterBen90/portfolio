@@ -62,13 +62,13 @@ nav ul .nav-hover:hover {
 
 .nav-ul-scroll {
   background-color: rgba(255,255,255,.95);
-  color:#303030;
+  color:black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 .nav-logo-scroll {
-  background: #303030;
+  background: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -77,20 +77,27 @@ nav ul .nav-hover:hover {
 
 .handle {
   width: 100%;
+  /*background: #303030;*/
   background: none;
   text-align: left;
   padding: 12px 10px;
   cursor: pointer;
   display: none;
   height:65px;
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
+
+.handle.scrolled {
+  background-color: black !important;
+  transition: background-color 200ms linear;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 .handle-menu {
   position: relative;
   margin-left: 10px;
-  top: 10px;
-  font-size: 20px;
+  top: 3px;
+  font-size: 30px;
   border-bottom: 1px solid white;
   background: white;
     -webkit-background-clip: text;
@@ -99,7 +106,7 @@ nav ul .nav-hover:hover {
 
 .bars {
   float:right;
-  color: #f2f2f2;
+  color: white;
   font-size: 35px;
   font-weight: bold;
   margin-right: 10px;
@@ -147,7 +154,7 @@ nav ul .nav-hover:hover {
 
   .nav-logo {
     font-weight: bold;
-    background: #303030;
+    background: black;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
   }
@@ -354,18 +361,79 @@ button:hover {
 }
 
 section {
-  height: 170%;
+  height: 100%;
 }
 
 h3 {
   position: relative;
-  top: -435px;
-  /*text-align: left;*/
   font-size: 48px;
-  color: #333333;
-  /*text-decoration: underline;*/
-  /*border-bottom: 2px solid black;*/
+  color: black;
+  text-align: center;
+  text-decoration: underline;
 }
+
+.about-content {
+  position: relative;
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.about-content-two {
+  position: relative;
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 100px;
+}
+
+.html-icon {
+  height: 80px;
+  width: 80px;
+}
+
+.css-icon {
+  height: 68px;
+  width: 68px;
+  position: relative;
+  bottom: 6px;
+}
+
+.javascript-icon {
+  height: 78px;
+  width: 78px;
+  position: relative;
+  bottom: 3px;
+  left: 2px;
+}
+
+.jquery-icon {
+  height: 78px;
+  width: 78px;
+  position: relative;
+  bottom: 5px;
+  left: 2px;
+}
+
+.node-icon {
+  height: 72px;
+  width: 72px;
+  position: relative;
+  bottom: 7px;
+  left: 2px;
+}
+
+.react-icon {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  bottom: 3px;
+}
+
 
 /*Media queries*/
 

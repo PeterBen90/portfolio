@@ -34,6 +34,14 @@ $(window).scroll(function(){
     }
 });
 
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".handle");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+
 $('.handle').on('click', function(event) {
   $('nav ul').toggleClass('showing');
 });
