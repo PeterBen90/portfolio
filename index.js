@@ -67,3 +67,10 @@ function play() {
 play();
 
 });
+
+// Overlay on click
+
+
+$(".container").on('click',function(){
+    $(this).children(".overlay").toggleClass("show");
+});

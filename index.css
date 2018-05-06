@@ -476,7 +476,8 @@ h3 {
   background: black;
 }
 
-.container:hover .overlay {
+.container .overlay.show{
+  height:100%;
   opacity: 1;
 }
 
