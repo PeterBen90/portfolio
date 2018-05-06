@@ -490,8 +490,9 @@ h3 {
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
+  width: 80%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -526,6 +527,10 @@ h3 {
   button {
     margin-top: 10px !important;
   }
+
+  .text {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -545,6 +550,10 @@ h3 {
 
   button {
     margin-top: 10px !important;
+  }
+
+  .text {
+    font-size: 14px;
   }
 }
 
