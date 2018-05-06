@@ -350,7 +350,6 @@ h2 {
   background: none;
   border: 2px solid white;
   color: white;
-  padding-top: 5px;
   z-index: 99999999;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -453,6 +452,7 @@ h3 {
 
 .projects-info {
   font-size: 20px;
+  margin-top: -10px;
 }
 
 /*Overlay effect*/
@@ -490,12 +490,38 @@ h3 {
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   width: 80%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.xperience-text{
+  font-size: 35px;
+}
+
+.live,
+.git-repo {
+  margin-top: 5px;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 50px;
+  width: 200px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  z-index: 99999999;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.live:hover,
+.git-repo:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.8s
 }
 
 
@@ -515,8 +541,9 @@ h3 {
 
 
   h1 {
-    font-size: 30px !important;
+    font-size: 35px !important;
     margin-bottom: -20px;
+    margin-top: 50px;
   }
 
   .portrait {
@@ -524,23 +551,31 @@ h3 {
     height: 180px !important;
   }
 
-  button {
-    margin-top: 10px !important;
+  .see-more {
+    margin-top: 70px !important;
   }
 
-  .text {
+  .text,
+  .xperience-text {
     font-size: 14px;
+  }
+
+  .live,
+  .git-repo {
+    height: 25px;
+    width: 100px;
   }
 }
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 30px !important;
+    font-size: 40px !important;
   }
 
   h2 {
       font-size: 16px !important;
       padding-top: 45px !important;
+      margin-top: -35px;
   }
 
   .portrait {
@@ -548,12 +583,21 @@ h3 {
     height: 180px !important;
   }
 
-  button {
-    margin-top: 10px !important;
+ .see-more,
+  .email {
+    margin-top: 20px !important;
   }
 
-  .text {
-    font-size: 14px;
+
+  .text,
+  .xperience-text {
+    font-size: 14px !important;
+  }
+
+    .live,
+  .git-repo {
+    height: 25px;
+    width: 100px;
   }
 }
 
