@@ -365,7 +365,6 @@ section {
 }
 
 h3 {
-/*  position: relative;*/
   font-size: 48px;
   color: black;
   text-align: center;
@@ -448,6 +447,10 @@ h3 {
 
 .projects-text {
   margin-bottom: 40px;
+}
+
+.projects-info {
+  font-size: 20px;
 }
 
 /*Overlay effect*/
