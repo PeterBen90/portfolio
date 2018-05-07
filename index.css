@@ -650,14 +650,14 @@ h3 {
     font-size: 14px !important;
   }
 
-    .live,
+  .live,
   .git-repo {
     height: 25px;
     width: 100px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1300px) {
   h1 {
     font-size: 70px;
   }
@@ -670,6 +670,17 @@ h3 {
   .portrait {
     width: 250px;
     height: 250px;
+  }
+
+  .text,
+  .xperience-text {
+    font-size: 14px !important;
+  }
+
+  .live,
+  .git-repo {
+    height: 25px !important;
+    width: 100px !important;
   }
 
 }
