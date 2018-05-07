@@ -354,6 +354,7 @@ h2 {
   z-index: 99999999;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 /*.see-more:hover,
@@ -517,6 +518,7 @@ h3 {
   z-index: 99999999;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .live:hover,
