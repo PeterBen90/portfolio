@@ -3,7 +3,7 @@
 $("a").on('click', function(event) {
   if (this.hash !== "") {
     event.preventDefault();
-    var hash = this.hash;
+    let hash = this.hash;
     $('html, body').animate({
         scrollTop: $(hash).offset().top-55
     }, 800, 'swing', function(){
@@ -36,7 +36,7 @@ $(window).scroll(function(){
 
 $(function () {
   $(document).scroll(function () {
-    var $nav = $(".handle");
+    let $nav = $(".handle");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
@@ -63,7 +63,7 @@ $(document).ready(function() {
 
 function play() {
     setInterval(function(){
-        var next = $(".slideshow .active").removeClass("active").next(".image");
+        let next = $(".slideshow .active").removeClass("active").next(".image");
         if (!next.length) {
             next = $(".slideshow .image:first");
         }
