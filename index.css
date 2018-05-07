@@ -343,8 +343,8 @@ h2 {
 .see-more,
 .email {
   margin-top: 35px;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
   height: 50px;
   width: 200px;
   background: none;
@@ -542,7 +542,6 @@ h3 {
   margin-top: 10px;
   left: 0;
   right: 0;
-  /*background: grey;*/
 }
 
 .footer p {
@@ -601,8 +600,14 @@ h3 {
     height: 180px !important;
   }
 
-  .see-more {
-    margin-top: 70px !important;
+
+  .button-container {
+    margin-top: -20px !important;
+  }
+
+  .see-more,
+  .email {
+    margin-top: 5px !important;
   }
 
   .text,
@@ -626,6 +631,12 @@ h3 {
   h2 {
     margin-top: -35px !important;
   }
+
+  .button-container {
+    margin-top: -140px;
+  }
+
+
 }
 
 
@@ -645,9 +656,9 @@ h3 {
     height: 180px !important;
   }
 
- .see-more,
+  .see-more,
   .email {
-    margin-top: 20px !important;
+    margin-top: 10px !important;
   }
 
 
@@ -676,6 +687,11 @@ h3 {
   .portrait {
     width: 250px;
     height: 250px;
+  }
+
+  .see-more,
+  .email {
+    margin-top: 150px;
   }
 
   .text,
