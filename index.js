@@ -68,7 +68,7 @@ function play() {
             next = $(".slideshow .image:first");
         }
         next.addClass("active");
-    }, 5000);
+    }, 6000);
 }
 play();
 
