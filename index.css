@@ -356,12 +356,12 @@ h2 {
   transition-duration: 0.4s;
 }
 
-.see-more:hover,
+/*.see-more:hover,
 .email:hover {
   background-color: black;
   transition: all 0.8s;
 }
-
+*/
 
 section {
   height: 100%;
