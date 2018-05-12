@@ -383,6 +383,10 @@ h3 {
   margin-top: 60px;
 }
 
+.about-me {
+  margin-bottom: 40px;
+}
+
 .about-content {
   position: relative;
   font-size: 26px;
@@ -399,6 +403,7 @@ h3 {
   text-align: center;
   margin-left: 6%;
   margin-right: 6%;
+  margin-bottom: 10px;
 }
 
 .fa-html5 {
