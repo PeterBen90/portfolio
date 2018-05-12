@@ -401,47 +401,29 @@ h3 {
   margin-right: 6%;
 }
 
-.html-icon {
-  height: 80px;
-  width: 80px;
+.fa-html5 {
+  color: #FF6347;
 }
 
-.css-icon {
-  height: 68px;
-  width: 68px;
-  position: relative;
-  bottom: 6px;
+.fa-css3-alt {
+  color: #3366CC;
 }
 
-.javascript-icon {
-  height: 78px;
-  width: 78px;
-  position: relative;
-  bottom: 3px;
-  left: 2px;
+.fa-js-square {
+  color: #FFCC00;
 }
 
-.jquery-icon {
-  height: 78px;
-  width: 78px;
-  position: relative;
-  bottom: 5px;
-  left: 2px;
+.fa-node-js {
+  color: #99FF33;
 }
 
-.node-icon {
-  height: 72px;
-  width: 72px;
-  position: relative;
-  bottom: 7px;
-  left: 2px;
+.fa-react {
+  color: #33CCFF;
 }
 
-.react-icon {
-  height: 80px;
-  width: 80px;
-  position: relative;
-  bottom: 3px;
+.icon {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .quik-eatz {
@@ -551,12 +533,12 @@ h3 {
   font-weight: bold;
 }
 
-.fa {
+.social {
   margin:10px;
   color: black;
 }
 
-.fa:hover {
+.social:hover {
   color: #3B5998;
 }
 
