@@ -428,6 +428,8 @@ h3 {
 .icon {
   margin-left: 5px;
   margin-right: 5px;
+  font-size: 80px;
+  margin-top: -5px;
 }
 
 .quik-eatz {
@@ -448,7 +450,7 @@ h3 {
 
 .projects-info {
   font-size: 20px;
-  margin-top: -10px;
+  margin-top: -15px;
 }
 
 /*Overlay effect*/
@@ -612,6 +614,10 @@ h3 {
   .about-content,
   .about-content-two {
     font-size: 22px;
+  }
+
+  .icon {
+    font-size: 60px;
   }
 }
 
