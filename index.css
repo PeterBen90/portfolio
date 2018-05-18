@@ -565,6 +565,16 @@ h3 {
 
 /*Media queries*/
 
+@media screen and (max-width: 320px) {
+  h2 {
+    margin-top: -50px !important;
+  }
+
+  .button-container {
+    margin-top: -70px !important;
+  }
+}
+
 @media screen and (max-width: 460px) {
 
   .image {
@@ -595,9 +605,8 @@ h3 {
     margin-top: -10px !important;
   }
 
-  .see-more,
   .email {
-    margin-top: 5px !important;
+    margin-top: 10px !important;
   }
 
   .text,
@@ -651,7 +660,7 @@ h3 {
 
   .see-more,
   .email {
-    margin-top: 5px !important;
+    margin-top: 10px !important;
   }
 
 
@@ -667,7 +676,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 960px) {
   h1 {
     font-size: 70px;
   }
@@ -682,11 +691,6 @@ h3 {
     height: 250px;
   }
 
-  .see-more,
-  .email {
-    margin-top: 150px;
-  }
-
   .text,
   .xperience-text {
     font-size: 14px !important;
@@ -698,16 +702,6 @@ h3 {
     width: 100px !important;
   }
 
-}
-
-@media screen and (max-width: 320px) {
-  h2 {
-    margin-top: -50px !important;
-  }
-
-  .button-container {
-    margin-top: -50px !important;
-  }
 }
 
 /*Resume styling*/
