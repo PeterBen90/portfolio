@@ -358,7 +358,7 @@ h2 {
 
 .button-container {
   position: absolute;
-  top: 480px;
+  top: 500px;
   width: 100%;
 }
 
@@ -651,7 +651,7 @@ h3 {
 
   .see-more,
   .email {
-    margin-top: 10px !important;
+    margin-top: 5px !important;
   }
 
 
@@ -673,8 +673,8 @@ h3 {
   }
 
   h2 {
-      font-size: 25px;
-      padding-top: 60px !important;
+    font-size: 25px;
+    padding-top: 60px !important;
   }
 
   .portrait {
@@ -698,6 +698,16 @@ h3 {
     width: 100px !important;
   }
 
+}
+
+@media screen and (max-width: 320px) {
+  h2 {
+    margin-top: -50px !important;
+  }
+
+  .button-container {
+    margin-top: -50px !important;
+  }
 }
 
 /*Resume styling*/
