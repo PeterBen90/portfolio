@@ -257,8 +257,7 @@ a h3 {
 
 .school-content {
   font-size: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: auto;
 }
 
 .school-details {
