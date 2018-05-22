@@ -37,8 +37,9 @@ h3 {
   margin-top: -8px;
 }
 
-a h3 {
+.email-link {
   color: #3B5998;
+  text-decoration: none;
 }
 
 /*Contact*/
@@ -177,7 +178,6 @@ a h3 {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
-/*  border-radius: 5px;*/
 }
 
 .live:hover,
@@ -208,10 +208,11 @@ a h3 {
   margin-top: 20px;
   text-align: left;
   margin-left: 10%;
+  margin-right: 10%;
 }
 
 .work-title span {
-  float: right;
+  /*float: right;*/
   margin-right: 10%;
 }
 
@@ -257,14 +258,15 @@ a h3 {
 
 .school-content {
   font-size: 20px;
-  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .school-details {
   font-size: 20px;
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .back p {
@@ -314,6 +316,18 @@ a h3 {
 
   .work-title span {
     float: left;
+  }
+
+  .school-title {
+    font-size: 22px;
+  }
+
+  .work-title {
+    font-size: 22px;
+  }
+
+  .work-title span {
+    font-size: 20px;
   }
 
 }
