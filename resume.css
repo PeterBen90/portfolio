@@ -321,7 +321,12 @@ h3 {
   }
 
   .school-title {
-    font-size: 22px;
+    font-size: 20px;
+  }
+
+  .school-details,
+  .school-content {
+    font-size: 18px;
   }
 
   .work-title {
