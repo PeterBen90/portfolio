@@ -6,13 +6,114 @@
     <title>Peter Benvenuto Résumé</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="shortcut icon" type="image/png" href="images/laptop.png">
+    <link rel="stylesheet" type="text/css" href="resume.css">
+    <link rel="stylesheet" type="text/css" href="float-grid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
     <header>
       <h1 class="resume-title">PETER BENVENUTO</h1>
-      <h2 class="resume-body">Résumé (work in progress)</h2>
+      <h2 class="resume-sub">Fullstack Web Developer<h2>
+      <h3>313 Lenel Court</h3>
+      <h3>Mississauga, ON L5A 1S1</h3>
+      <h3>416-456-3019</h3>
+      <a href="mailto:peterbenvenuto90@gmail.com" target="_top"><h3>peterbenvenuto90@gmail.com</h3></a>
+      <div class="contact">
+            <p>GitHub</p>
+            <a href="https://github.com/PeterBen90/" target="blank"><i class="fab fa-github-square social" style="font-size:40px"></i></a>
+            <p>LinkedIn</p>
+            <a href="https://www.linkedin.com/in/peter-benvenuto-5a2646b8/" target="blank"><i class="fab fa-linkedin social" style="font-size:40px"></i></a>
+            <p>Portfolio</p>
+            <a href="https://peterben90.github.io/portfolio/" target="blank"><i class="fas fa-address-card social" style="font-size:40px"></i></a>
+      </div>
     </header>
+
+    <section class="about-section">
+      <div>
+        <h2 class="about">About</h2>
+        <p class="about-content">Web Developer, passionate about building beautiful and responsive front ends. I specialize in Fullstack JavaScript development, and writing clean and accessible code.</p>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <div>
+        <h2 class="skills">Key Skills</h2>
+        <h3 class="list-title">Languages/Frameworks and Libraries:</h3>
+        <p class="list-content">HTML5, CSS3, JavaScript, JQuery, NodeJS, Express, React, and Redux</p>
+        <h3 class="list-title">Tools:</h3>
+        <p class="list-content">Git, GitHub, Heroku, Netlify, MongoDB, and MLab</p>
+        <h3 class="list-title">Testing:</h3>
+        <p class="list-content">Mocha, Chai, Enzyme, and Jest</p>
+      </div>
+    </section>
+
+    <section class="projects-section">
+      <div>
+        <h2 class="projects">Projects</h2>
+
+        <h3 class="projects-title">Travel Assisstant +Plus</h3>
+          <p class="projects-content">A simple travel app which helps you plan your daily activities while you are visiting somewhere new. This app uses the OpenWeatherMap API, the Foursquare API and Google Places API.</p>
+          <a href="https://peterben90.github.io/travel-assistant-plus-app/" target="blank"><button type="button" class="live">LIVE</button></a>
+          <a href="https://github.com/PeterBen90/travel-assistant-plus-app" target="blank"><button type="button" class="git-repo">GITHUB</button></a>
+
+        <h3 class="projects-title">Quik Eatz</h3>
+          <p class="projects-content">A recipe storage platform that allows each user to create and post food and/or cocktail recipes.</p>
+          <a href="https://quikeatz.herokuapp.com/" target="blank"><button type="button" class="live">LIVE</button></a>
+          <a href="https://github.com/PeterBen90/node-quikeatz-app" target="blank"><button type="button" class="git-repo">GITHUB</button></a>
+
+          <h3 class="projects-title">Xperience</h3>
+          <p class="projects-content">An experience tracking app that let's the user capture small moments of their lives and post/save them.</p>
+          <a href="https://xperience-app.netlify.com" target="blank"><button type="button" class="live">LIVE</button></a>
+          <a href="https://github.com/PeterBen90/xperience-app-client" target="blank"><button type="button" class="git-repo">GITHUB</button></a>
+      </div>
+    </section>
+
+    <section class="work-section">
+      <div>
+        <h2 class="work">Work History</h2>
+
+        <h3 class="work-title">Logistics and Material Handling<span>SEP 2010 - NOV 2014 & SEP 2016 - PRESENT</span></h3>
+        <i class="work-content">Chrysler Canada, Brampton, Ontario </i>
+        <p class="work-details">Organized 10 – 15 large trucks, tracking parts with software and station checklists. Also responisble for cross-training over 30 new employees in 25 different roles.</p>
+
+        <h3 class="work-title">Global Partnerships Marketing Intern<span>MAY 2017 - AUG 2017</span></h3>
+        <i class="work-content">Maple Leafs Sports & Entertainment, Toronto, Ontario </i>
+        <p class="work-details">Helped coordinate and execute experiential marketing events – involved in status calls, updating status documents, and acted as a liaison between a team of 4 interns, 4 brand ambassadors and management team. Also assisted in servicing corporate partners, such as Ford and Rogers with the game night activations</p>
+
+        <h3 class="work-title">Clinical Research Techincal Recruiter<span>DEC 2015 - APRIL 2016</span></h3>
+        <i class="work-content">Aerotek Inc., Mississauga, Ontario </i>
+        <p class="work-details">  Reached out to 50 candidates daily via phone, collected work history details and kept detailed notes.Also managed a database of thousands of applicants; conducted an average of 54 interviews per week</p>
+      </div>
+    </section>
+
+    <section class="education-section">
+      <div>
+        <h2 class="education">Education</h2>
+        <h3 class="school-title">Thinkful - Brooklyn, NY</h3>
+        <i class="school-content">Thinkful Fullstack Web Development Bootcamp - NOV 2017 - MAY 2018</i>
+        <p class="school-details">A six-month, intensive, mentor-led, course on modern fullstack JavaScript development.</p>
+
+        <h3 class="school-title">Humber College - Toronto, ON</h3>
+        <i class="school-content">Business and Marketing Management - SEP 2016 - APRIL 2017</i>
+        <p class="school-details">A Post-graduate diploma in business and marketing management.</p>
+
+        <h3 class="school-title">York University - Toronto, ON</h3>
+        <i class="school-content">Political Science SEP 2011 - JUNE 2014</i>
+        <p class="school-details">An undergraduate degree in Political Science.</p>
+
+        <h3 class="school-title">Lon Morris College - Jacksonville, TX</h3>
+        <i class="school-content">International Business - MAY 2010</i>
+        <p class="school-details">completed one year of undergraduate studies.</p>
+
+        <div class="back">
+            <p>Back to portfolio</p>
+            <a href="https://peterben90.github.io/portfolio/" target="blank"><i class="fas fa-caret-square-left social" style="font-size:50px"></i></a>
+        </div>
+
+      </div>
+    </section>
+
     <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
