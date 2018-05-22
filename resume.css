@@ -313,6 +313,10 @@ a h3 {
     font-size: 16px;
   }
 
+  .work-title span {
+    float: left;
+  }
+
 }
 
 
