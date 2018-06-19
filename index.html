@@ -20,8 +20,8 @@
         <a href="#"><li class="nav-left"><span class="nav-logo">PETER BENVENUTO</span></li></a>
         <a href="#about"><li class="nav-right nav-hover">About Me</li></a>
         <a href="#projects"><li class="nav-right nav-hover">Projects</li></a>
-        <a href="resume.html" target="_blank"><li class="nav-right nav-hover">Résumé</li></a>
         <a href="#contact"><li class="nav-right nav-hover">Contact</li></a>
+        <a href="resume.html" target="_blank"><li class="nav-right nav-hover">Résumé</li></a>
       </ul>
       <div class="handle"><span class="handle-menu">PB</span><p class="bars" aria-hidden="true">&#9776;</p></div>
     </nav>
@@ -55,7 +55,8 @@
   <main>
 
     <section role="region">
-      <div id="about" class="about-text col-12">
+
+      <div id="about" class="hideme about-text col-12">
             <h3 class="about-me">About Me</h3>
             <i class="fab fa-html5 icon"></i>
             <i class="fab fa-css3-alt icon"></i>
@@ -67,31 +68,10 @@
       </div>
 
       <div id="projects" class="projects-text col-12">
-          <h3>Projects</h3>
-          <p class="projects-info">Click any image to find out more.</p>
-          <div class="container col-6">
-              <img src="images/travel-assistant.png" alt="image of travel assistant" class="images">
-              <div class="overlay">
-                <div class="text" hidden>
-                  <p>A simple travel app which helps you plan your daily activities while you are visiting somewhere new. This app uses the OpenWeatherMap API, the Foursquare API and Google Places API.</p>
-                  <p>HTML, CSS, JavaScript and JQuery</p>
-                  <a href="https://peterben90.github.io/travel-assistant-plus-app/" target="blank"><button type="button" class="live">LIVE</button></a>
-                  <a href="https://github.com/PeterBen90/travel-assistant-plus-app" target="blank"><button type="button" class="git-repo">GITHUB</button></a>
-                </div>
-              </div>
-          </div>
-          <div class="container col-6">
-              <img src="images/quik-eatz.png" alt="image of quik eatz" class="images">
-              <div class="overlay">
-                <div class="text" hidden>
-                  <p>A recipe storage platform that allows each user to create and post food and/or cocktail recipes.</p>
-                  <p>HTML, CSS, JavaScript, JQuery, NodeJS, Express, MongoDB and Heroku</p>
-                  <a href="https://quikeatz.herokuapp.com/" target="blank"><button type="button" class="live">LIVE</button></a>
-                  <a href="https://github.com/PeterBen90/node-quikeatz-app" target="blank"><button type="button" class="git-repo">GITHUB</button></a>
-                </div>
-              </div>
-          </div>
-          <div class="container col-12">
+          <h3 class="hideme">Projects</h3>
+          <p class="hideme projects-info">Click any image to find out more.</p>
+
+          <div class="hideme container col-4">
               <img src="images/xperience.png" alt="image of xperience" class="images">
               <div class="overlay">
                 <div class="text" hidden>
@@ -102,11 +82,35 @@
                 </div>
               </div>
           </div>
+
+          <div class="hideme container col-4">
+              <img src="images/quik-eatz.png" alt="image of quik eatz" class="images">
+              <div class="overlay">
+                <div class="text" hidden>
+                  <p>A recipe storage platform that allows each user to create and post food and/or cocktail recipes.</p>
+                  <p>HTML, CSS, JavaScript, JQuery, NodeJS, Express, MongoDB and Heroku</p>
+                  <a href="https://quikeatz.herokuapp.com/" target="blank"><button type="button" class="live">LIVE</button></a>
+                  <a href="https://github.com/PeterBen90/node-quikeatz-app" target="blank"><button type="button" class="git-repo">GITHUB</button></a>
+                </div>
+              </div>
+          </div>
+
+          <div class="hideme container col-4">
+              <img src="images/travel-assistant.png" alt="image of travel assistant" class="images">
+              <div class="overlay">
+                <div class="text" hidden>
+                  <p>A simple travel app which helps you plan your daily activities while you are visiting somewhere new. This app uses the OpenWeatherMap API, the Foursquare API and Google Places API.</p>
+                  <p>HTML, CSS, JavaScript and JQuery</p>
+                  <a href="https://peterben90.github.io/travel-assistant-plus-app/" target="blank"><button type="button" class="live">LIVE</button></a>
+                  <a href="https://github.com/PeterBen90/travel-assistant-plus-app" target="blank"><button type="button" class="git-repo">GITHUB</button></a>
+                </div>
+              </div>
+          </div>
         </div>
 
-      <div id="contact" class="contact-text col-12">
+      <div id="contact" class="hideme contact-text col-12">
           <div class="footer">
-            <p>Contact Me:</p>
+            <p>Let's Connect!</p>
             <a href="https://github.com/PeterBen90/" target="blank"><i class="fab fa-github-square social" style="font-size:80px"></i></a>
             <a href="https://www.linkedin.com/in/peter-benvenuto/" target="blank"><i class="fab fa-linkedin social" style="font-size:80px"></i></a>
             <a href="mailto:peterbenvenuto90@gmail.com" target="_top"><i class="fas fa-envelope-square social" style="font-size:80px"></i></a>
