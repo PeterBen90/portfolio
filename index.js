@@ -104,29 +104,11 @@ sr.reveal(".portrait", { duration: 2000 });
 
 sr.reveal(".button-container", { duration: 2000 });
 
-sr.reveal(".about-me", { duration: 2000 });
+sr.reveal("#about", { duration: 2000 });
 
-sr.reveal(".icon", {
-  origin: "right",
-  duration: 2000
-});
-
-sr.reveal(".about-content", {
-  origin: "left",
-  duration: 2000
-});
-
-sr.reveal(".about-content-two", {
-  origin: "left",
-  duration: 2000
-});
-
-sr.reveal("#projects", {
-  origin: "left",
-  duration: 2000
-});
+sr.reveal("#projects", { duration: 2000 });
 
 sr.reveal("#contact", {
-  origin: "right",
+  origin: "top",
   duration: 2000
 });
