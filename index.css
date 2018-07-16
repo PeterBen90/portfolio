@@ -533,6 +533,10 @@ h3 {
   font-weight: bold;
 }
 
+.footer a {
+  text-decoration: none;
+}
+
 .social {
   margin: 10px;
   color: black;
