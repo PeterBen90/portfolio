@@ -23,6 +23,10 @@ h1{
   margin-right: 10%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .resume-sub {
   color: black;
   font-family: 'Roboto Condensed', sans-serif;
