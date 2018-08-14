@@ -211,29 +211,29 @@ h3 {
   font-size: 25px;
   margin-top: 20px;
   text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-weight: bold;
 }
 
 .work-title span {
   /*float: right;*/
-  margin-right: 10%;
+  margin-right: 15%;
 }
 
 .work-content {
   font-size: 20px;
   float: left;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: left;
 }
 
 .work-details {
   font-size: 20px;
   float: left;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: left;
   padding-bottom: 50px;
 }
