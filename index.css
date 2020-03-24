@@ -567,7 +567,7 @@ h3 {
 
 /*Slide Effects*/
 
-nav {
+/* nav {
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -582,7 +582,7 @@ nav {
     margin-left: 0%;
     width: 100%;
   }
-}
+} */
 
 /*Media queries*/
 
