@@ -356,10 +356,10 @@ h2 {
   margin-right: 5%;
   height: 50px;
   width: 200px;
-  background: #cc8400;
+  background: #ff2500;
   padding-top: 5px;
   padding-bottom: 5px;
-  border: 2px solid #cc8400;
+  border: 2px solid #ff2500;
   color: white;
   z-index: 99999999;
   -webkit-transition-duration: 0.4s;
@@ -369,10 +369,10 @@ h2 {
 }
 
 .download:hover {
-  background: #b37400;
+  background: #c42408;
   color: #f2f2f2;
   transition: all 0.8s;
-  border: 2px solid #b37400;
+  border: 2px solid #c42408;
 }
 
 .connect {
@@ -577,8 +577,16 @@ h3 {
   color: black;
 }
 
-.social:hover {
+.fa-linkedin:hover {
   color: #3b5998;
+}
+
+.fa-github-square:hover {
+  color: #6e5494;
+}
+
+.fa-envelope-square:hover {
+  color: #c9510c;
 }
 
 .footer .social:hover {
@@ -765,3 +773,4 @@ h3 {
   text-align: center;
   color: black;
 }
+
