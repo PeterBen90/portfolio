@@ -775,3 +775,7 @@ h3 {
   color: black;
 }
 
+button {
+  border-radius: 5px;
+}
+
