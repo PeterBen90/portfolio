@@ -367,10 +367,10 @@ h2 {
 }
 
 .download:hover {
-  background-color: black;
-  color: #cc8400;
+  background: #b37400;
+  color: #f2f2f2;
   transition: all 0.8s;
-  border: black;
+  border: 2px solid #b37400;
 }
 
 .connect {
