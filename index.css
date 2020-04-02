@@ -348,6 +348,34 @@ h2 {
   cursor: pointer;
 }
 
+.download {
+  margin-top: 35px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 50px;
+  width: 200px;
+  background: #cc8400;
+  padding-top: 5px;
+  border: 2px solid #cc8400;
+  color: white;
+  z-index: 99999999;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.download:hover {
+  background-color: black;
+  color: #cc8400;
+  transition: all 0.8s;
+  border: black;
+}
+
+.connect {
+  color: black;
+}
+
 .button-container {
   position: absolute;
   top: 490px;
