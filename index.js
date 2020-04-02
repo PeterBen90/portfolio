@@ -96,19 +96,24 @@ window.sr = ScrollReveal({ reset: true });
 
 // Custom Settings
 
-sr.reveal(".title", { duration: 2000 });
+sr.reveal(".title", { duration: 1000 });
 
-sr.reveal(".sub-title", { duration: 2000 });
+sr.reveal(".sub-title", { duration: 1000 });
 
-sr.reveal(".portrait", { duration: 2000 });
+sr.reveal(".portrait", { duration: 1000 });
 
-sr.reveal(".button-container", { duration: 2000 });
+sr.reveal(".button-container", { duration: 1000 });
 
-sr.reveal("#about", { duration: 2000 });
+sr.reveal("#about", { duration: 1000 });
 
-sr.reveal("#projects", { duration: 2000 });
+sr.reveal("#projects", { duration: 1000 });
 
 sr.reveal("#contact", {
   origin: "top",
-  duration: 2000
+  duration: 1000
+});
+
+sr.reveal("#download-btn", {
+  origin: "top",
+  duration: 1000
 });
