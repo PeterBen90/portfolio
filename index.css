@@ -340,6 +340,7 @@ h2 {
   width: 200px;
   background: none;
   padding-top: 5px;
+  padding-bottom: 5px;
   border: 2px solid white;
   color: white;
   z-index: 99999999;
