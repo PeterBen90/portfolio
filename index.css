@@ -306,18 +306,27 @@ h2 {
 }
 
 .image:nth-of-type(1) {
-  background: url("images/web-developer.jpeg") no-repeat center center;
   background-size: cover;
+  background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/web-developer.jpeg") no-repeat center center;
 }
 
 .image:nth-of-type(2) {
-  background: url("images/interior-design.jpeg") no-repeat center center;
   background-size: cover;
+  background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/interior-design.jpeg") no-repeat center center;
 }
 
 .image:nth-of-type(3) {
-  background: url("images/travel.jpeg") no-repeat center center;
   background-size: cover;
+  background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),url("images/travel.jpeg") no-repeat center center;
 }
 
 /*Portait image and buttons*/
@@ -381,8 +390,12 @@ h2 {
 
 .button-container {
   position: absolute;
-  top: 490px;
+  top: 400px;
   width: 100%;
+}
+
+.title {
+  padding-top: 10%;
 }
 
 .see-more:hover,
@@ -404,8 +417,13 @@ h3 {
   letter-spacing: 2px;
 }
 
+#portrait-img {
+  float: right;
+}
+
 #about {
   margin-top: 30px;
+  text-align: left;
 }
 
 .about-me {
@@ -413,22 +431,30 @@ h3 {
 }
 
 .about-content {
-  position: relative;
   font-size: 26px;
   color: black;
-  text-align: center;
-  margin-left: 8%;
-  margin-right: 6%;
+  text-align: left;
 }
 
 .about-content-two {
-  position: relative;
   font-size: 26px;
   color: black;
-  text-align: center;
-  margin-left: 6%;
-  margin-right: 6%;
+  text-align: left;
   margin-bottom: 10px;
+}
+
+.about-container {
+  margin-left: 50px;
+}
+
+.new-img {
+  width: 80%; 
+  height: auto;
+  background: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+  );
+  border-radius: 5px;
 }
 
 .fa-html5 {
@@ -493,7 +519,7 @@ h3 {
 .images {
   display: block;
   width: 100%;
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3); */
   border-radius: 5px;
 }
 
@@ -654,8 +680,20 @@ h3 {
     height: 180px !important;
   }
 
-  .button-container {
-    margin-top: -10px !important;
+  .about-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-content,
+  .about-content-two {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .new-img {
+    width: 70%;
+    height: auto;
   }
 
   .see-more,
@@ -702,10 +740,6 @@ h3 {
   h2 {
     margin-top: -35px !important;
   }
-
-  .button-container {
-    margin-top: -140px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -728,10 +762,6 @@ h3 {
     margin-top: 10px !important;
   }
 
-  .button-container {
-    margin-top: -50px;
-  }
-
   .text,
   .xperience-text {
     font-size: 14px !important;
@@ -741,6 +771,19 @@ h3 {
   .git-repo {
     height: 25px;
     width: 100px;
+  }
+
+  .icon {
+    font-size: 40px;
+  }
+
+  .about-content,
+  .about-content-two {
+    font-size: 18px;
+  }
+
+  .title {
+    padding-top: 20%;
   }
 }
 
@@ -773,6 +816,10 @@ h3 {
   .git-repo {
     height: 25px !important;
     width: 100px !important;
+  }
+
+  .title {
+    padding-top: 20%;
   }
 }
 

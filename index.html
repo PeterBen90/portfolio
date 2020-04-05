@@ -51,19 +51,19 @@
         <li class="image active">
           <h1 class="title">PETER BENVENUTO</h1>
           <h2 class="sub-title">SOFTWARE ENGINEER</h2>
-          <img class="portrait" src="images/peter.jpg" alt="image of myself">
+          <!-- <img class="portrait" src="images/peter.jpg" alt="image of myself"> -->
           </br>
         </li>
         <li class="image">
           <h1 class="title">PETER BENVENUTO</h1>
           <h2 class="sub-title">DESIGN ENTHUSIAST</h2>
-          <img class="portrait" src="images/peter.jpg" alt="image of myself">
+          <!-- <img class="portrait" src="images/peter.jpg" alt="image of myself"> -->
           </br>
         </li>
         <li class="image">
           <h1 class="title">PETER BENVENUTO</h1>
           <h2 class="sub-title">LEISURE TRAVELLER</h2>
-          <img class="portrait" src="images/peter.jpg" alt="image of myself">
+          <!-- <img class="portrait" src="images/peter.jpg" alt="image of myself"> -->
           </br>
         </li>
       </ul>
@@ -82,21 +82,33 @@
 
       <div id="about" class="about-text col-12">
         <h3 class="about-me">ABOUT ME</h3>
-        <i class="fab fa-html5 icon"></i>
-        <i class="fab fa-css3-alt icon"></i>
-        <i class="fab fa-js-square icon"></i>
-        <i class="fab fa-node-js icon"></i>
-        <i class="fab fa-react icon"></i>
-        <p class="about-content">I'm a Toronto-based software engineer with a passion for architecture, design and
-          aesthetics. I began my programming journey
-          in a small, back intern office in a completely unrelated profession, and I've never looked back. As a recent
-          graduate
-          from Thinkful's Fullstack Web Development Bootcamp, I've learned so much, and I found that learning new
-          technologies
-          and solving problems is an unparalleled rush. </p>
-        <p class="about-content-two">When I'm not programming, you can find me binging on Netflix shows, travelling, or
-          trying new restaurants. You can check
-          out some of my projects below!</p>
+
+        <div class="about-container col-6">
+
+          <div class="icon-container">
+            <i class="fab fa-html5 icon"></i>
+            <i class="fab fa-css3-alt icon"></i>
+            <i class="fab fa-js-square icon"></i>
+            <i class="fab fa-node-js icon"></i>
+            <i class="fab fa-react icon"></i>
+          </div>
+
+          <p class="about-content">I'm a Toronto-based software engineer with a passion for architecture, design and
+            aesthetics. A little over 3 years ago I began my programming journey
+            in a small intern office, in a completely unrelated profession, and I've never looked back. I've since
+            worked in frontend and backend roles, in start-up environments and corporate environments, and I love
+            learning new
+            technologies
+            and solving problems. </p>
+          <p class="about-content-two">When I'm not programming, you can find me binging on Netflix shows,
+            travelling, or
+            trying new restaurants. You can check
+            out some of my projects below!</p>
+        </div>
+
+        <div id="portrait-img" class="about-container col-4">
+          <img class="new-img" src="images/me.jpg" alt="image of myself">
+        </div>
       </div>
 
       <div id="projects" class="projects-text col-12">
@@ -171,10 +183,9 @@
         </div>
       </div>
 
-      <a id="download-btn" href="images/peter-benvenuto-resume.pdf" download>
-        <button class="download" type="button">DOWNLOAD RESUMÉ</button>
-
-        <div id="contact" class="contact-text col-12">
+      <div id="contact" class="contact-text col-12">
+        <a id="download-btn" href="images/peter-benvenuto-resume.pdf" download>
+          <button class="download" type="button">DOWNLOAD RESUMÉ</button>
           <div class="footer">
             <p class="connect">Let's Connect!</p>
             <a href="https://github.com/PeterBen90/" target="blank">
@@ -187,7 +198,7 @@
               <i class="fas fa-envelope-square social" style="font-size:80px"></i>
             </a>
           </div>
-        </div>
+      </div>
 
     </section>
 
