@@ -1,21 +1,21 @@
 // Autoscroll and nav styling
 
-$("a").on("click", function(event) {
-  if (this.hash !== "") {
-    event.preventDefault();
-    let hash = this.hash;
-    $("html, body").animate(
-      {
-        scrollTop: $(hash).offset().top - 55
-      },
-      800,
-      "swing",
-      function() {
-        window.location.hash = hash;
-      }
-    );
-  }
-});
+// $("a").on("click", function(event) {
+//   if (this.hash !== "") {
+//     event.preventDefault();
+//     let hash = this.hash;
+//     $("html, body").animate(
+//       {
+//         scrollTop: $(hash).offset().top - 55
+//       },
+//       800,
+//       "swing",
+//       function() {
+//         window.location.hash = hash;
+//       }
+//     );
+//   }
+// });
 
 $(".nav-logo").click(function(event) {
   event.preventDefault();
@@ -51,6 +51,36 @@ $(".see-more").click(function(event) {
   $("html, body").animate(
     {
       scrollTop: $("#about").offset().top
+    },
+    800
+  );
+});
+
+$(".about").click(function(event) {
+  event.preventDefault();
+  $("html, body").animate(
+    {
+      scrollTop: $("#about").offset().top
+    },
+    800
+  );
+});
+
+$(".projects").click(function(event) {
+  event.preventDefault();
+  $("html, body").animate(
+    {
+      scrollTop: $("#projects").offset().top
+    },
+    800
+  );
+});
+
+$(".contact").click(function(event) {
+  event.preventDefault();
+  $("html, body").animate(
+    {
+      scrollTop: $("#contact").offset().top
     },
     800
   );

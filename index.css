@@ -845,3 +845,8 @@ button {
   border-radius: 5px;
 }
 
+.about,
+.projects,
+.contact {
+  cursor: pointer;
+}
