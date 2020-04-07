@@ -92,7 +92,6 @@ nav ul .nav-hover:hover {
 .handle.scrolled {
   background-color: black !important;
   transition: background-color 200ms linear;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .handle-menu {
@@ -310,7 +309,8 @@ h2 {
   background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/web-developer.jpeg") no-repeat center center;
+  ),url("images/web-developer.jpeg") no-repeat center center;
+  background-attachment: fixed;
 }
 
 .image:nth-of-type(2) {
@@ -318,7 +318,8 @@ h2 {
   background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/interior-design.jpeg") no-repeat center center;
+  ),url("images/interior-design.jpeg") no-repeat center center;
+  background-attachment: fixed;
 }
 
 .image:nth-of-type(3) {
@@ -326,7 +327,8 @@ h2 {
   background: linear-gradient(
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
-	),url("images/travel.jpeg") no-repeat center center;
+  ),url("images/travel.jpeg") no-repeat center center;
+  background-attachment: fixed;
 }
 
 /*Portait image and buttons*/
@@ -850,3 +852,5 @@ button {
 .contact {
   cursor: pointer;
 }
+
+
