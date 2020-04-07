@@ -310,6 +310,7 @@ h2 {
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
   ),url("images/web-developer.jpeg") no-repeat center center;
+  background-attachment: fixed;
 }
 
 .image:nth-of-type(2) {
@@ -318,6 +319,7 @@ h2 {
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
   ),url("images/interior-design.jpeg") no-repeat center center;
+  background-attachment: fixed;
 }
 
 .image:nth-of-type(3) {
@@ -326,6 +328,7 @@ h2 {
 		rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)
   ),url("images/travel.jpeg") no-repeat center center;
+  background-attachment: fixed;
 }
 
 /*Portait image and buttons*/
@@ -733,6 +736,18 @@ h3 {
     background: black;
     border-radius: 5px;
   }
+
+  .image:nth-of-type(1) {
+    background-attachment: scroll;
+  }
+  
+  .image:nth-of-type(2) {
+    background-attachment: scroll;
+  }
+  
+  .image:nth-of-type(3) {
+    background-attachment: scroll;
+  }
 }
 
 @media screen and (max-width: 736px) {
@@ -784,6 +799,18 @@ h3 {
   .title {
     padding-top: 20%;
   }
+
+  .image:nth-of-type(1) {
+    background-attachment: scroll;
+  }
+  
+  .image:nth-of-type(2) {
+    background-attachment: scroll;
+  }
+  
+  .image:nth-of-type(3) {
+    background-attachment: scroll;
+  }
 }
 
 @media screen and (max-width: 1350px) {
@@ -820,6 +847,18 @@ h3 {
   .title {
     padding-top: 20%;
   }
+
+  .image:nth-of-type(1) {
+    background-attachment: scroll;
+  }
+  
+  .image:nth-of-type(2) {
+    background-attachment: scroll;
+  }
+  
+  .image:nth-of-type(3) {
+    background-attachment: scroll;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -829,6 +868,18 @@ h3 {
 
   .button-container {
     margin-top: -60px !important;
+  }
+
+  .image:nth-of-type(1) {
+    background-attachment: scroll;
+  }
+  
+  .image:nth-of-type(2) {
+    background-attachment: scroll;
+  }
+  
+  .image:nth-of-type(3) {
+    background-attachment: scroll;
   }
 }
 
