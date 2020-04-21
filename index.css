@@ -901,4 +901,8 @@ button {
   cursor: pointer;
 }
 
+.one-percent {
+  border: 2px solid #D3D3D3;
+}
+
 
